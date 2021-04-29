@@ -1,0 +1,70 @@
+body {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: white;
+}
+
+.brain{
+    width:10%;
+    height:auto;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width:20%;
+    list-style: none;
+    padding: 0px;
+}
+
+.item{
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+    border-style: solid;
+}
+
+.item a{
+    text-decoration: none;
+    color: white;
+}
+
+.item:hover{
+    background-color:  white;
+    color: #0F2027;
+}
+
+.item:hover a{
+    color: #0F2027;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+}
+
+.icon{
+    width: 2rem;
+    height:auto;
+}
